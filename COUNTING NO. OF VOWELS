@@ -1,0 +1,10 @@
+a=["RAJU","RAM","ANU"]
+vowels="AEIOU"
+res=[]
+for i in a:
+    c=0
+    for j in i:
+        if j in vowels:
+            c=c+1
+    res.append(c)
+print(res)
